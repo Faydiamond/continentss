@@ -1,14 +1,9 @@
 package continentss
 
-import "fmt"
-
-var logMessage = "[LOG]"
-
 // Version of the calculator
 var Version = "1.0"
 
 func WhatCountry(country string) string {
-	fmt.Println("Digite una pais ")
 	var continent string
 	switch country {
 	case "armenia", "afganistán", "arabia saudita", "azerbaiyán ", "banglades", "barein", "birmania ", "brunei", "butan", "camboya",
